@@ -185,7 +185,7 @@ Of particular note, is the `AUTH` environment variable which is set to `oidc`. A
 in the `INITIAL_ADMIN_IDENTITY` environment variable. This value will be used to seed the instance with an initial 
 user with administrative privileges.
 
-### For a minimal, connection to an OpenID server
+#### For a minimal, connection to an OpenID server
 
     docker run --name nifi \
       -v $(pwd)/certs/localhost:/opt/certs \
